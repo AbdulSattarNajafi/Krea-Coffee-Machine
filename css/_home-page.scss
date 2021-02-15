@@ -1,0 +1,200 @@
+/*---------Hero---------*/
+#hero{
+  background: $white;
+  padding: 3rem 0;
+  position: relative;
+  margin-bottom: 4rem;
+  .heading{
+    width: 50%;
+    margin-top: 3rem;
+    padding-left: 2rem;
+  }
+  .image_container{
+    width: 43%;
+    position: absolute;
+    top: 7%;
+    right: 0;
+  }
+  .content{
+    box-sizing: border-box;
+    padding-left: 2rem;
+    width: 57%;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    .actions{
+      display: flex;
+      flex-flow: row wrap;
+      padding-top: 1rem;
+      .hero_link{
+        margin-bottom: 1.5rem;
+        padding: .5rem 0;
+        .btn_outline{
+          margin-right: 1rem;
+          border: 1.5px solid $blue;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $blue;
+          padding: .7rem 1.6rem;
+          transition: all .4s ease;
+          &:hover{
+            background-color: $blue;
+            color: $white;
+          }
+        }
+        .btn{
+          background-color: $blue;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $white;
+          padding: .7rem 1.6rem;
+          border: 1.5px solid transparent;
+          transition: all .4s ease;
+          &:hover{
+            background-color: $gray;
+            border-color: $gray;
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+}
+/*--------Technical-------------*/
+#technical{
+  display: flex;
+  width: 100%;
+  margin-top: 11rem;
+  img{
+    display: block;
+    width: 50%;
+  }
+  .text{
+    width: 50%;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+    .mb-none{
+      margin-bottom: 0;
+    }
+  }
+}
+/*--------Interface-------------*/
+#interface{
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  .text{
+    width: 50%;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.4rem 4rem;
+    .mb-none{
+      margin-bottom: 0;
+    }
+  }
+  img{
+    display: block;
+    width: 50%;
+  }
+}
+/*--------Electronics-------------*/
+#electronic{
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  img{
+    display: block;
+    width: 50%;
+  }
+  .text{
+    width: 50%;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+    .mb-none{
+      margin-bottom: 0;
+    }
+  }
+}
+/*--------Products-------------*/
+#products{
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  h2{
+    text-align: center;
+  }
+  .specification_container{
+    display: flex;
+    margin-top: 3rem;
+    .links{
+      width: 30%;
+      margin-right: 2rem;
+      .links_item{
+        background: $blue;
+        padding: 1rem;
+        h4{
+          color: $white;
+        }
+        a{
+          display: block;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: .9rem;
+          color: $white;
+          font-weight: 300;
+          margin-top: .4rem;
+          transition: all .4s ease;
+          &:hover{
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .table_container{
+      width: 45%;
+      table{
+        border-spacing: 0;
+        width: 100%;
+        tbody tr{
+          border: none;
+          td{
+            padding: .4rem .6rem;
+          }
+          &:nth-child(odd) {
+            background: $white;
+          }
+        }
+      }
+      .icons_container{
+        display: flex;
+        flex-flow: row wrap;
+        .icon{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          margin-top: 1rem;
+          img{
+            width: 60px;
+            margin-right: 0.5rem;
+          }
+          h5{
+            margin: 0;
+            color: $blue;
+          }
+        }
+      }
+    }
+    .img_container{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      margin-left: 2rem;
+    }
+  }
+}

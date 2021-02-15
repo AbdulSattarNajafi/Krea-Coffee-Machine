@@ -1,0 +1,130 @@
+@media (max-width: 1039.99px) {
+  #hero .content .actions{
+    flex-direction: column;
+  }
+  #technical{
+    margin-top: 8rem;
+  }
+  /*--------Products-------------*/
+  #products{
+    .specification_container{
+      flex-direction: column;
+      .links{
+        width: 100%;
+        order: 1;
+        margin-right: 0;
+      }
+      .table_container{
+        order: 3;
+        width: 100%;
+        .icons_container{
+          justify-content: space-between;
+          .icon{
+            width: 30%;
+          }
+        }
+      }
+      .img_container{
+        order: 2;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  /*---------Hero---------*/
+  #hero{
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    .heading{
+      width: 100%;
+      margin-top: 0;
+      text-align: center;
+    }
+    .image_container{
+      width: 100%;
+      position: relative;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .content{
+      width: 100%;
+      text-align: center;
+      .actions{
+        justify-content: center;
+      }
+    }
+  }
+  /*--------Technical-------------*/
+  #technical{
+    flex-direction: column;
+    margin-top: 5rem;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .text{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 2rem;
+    }
+  }
+  /*--------Interface-------------*/
+  #interface{
+    flex-direction: column;
+    .text{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 2rem;
+    }
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  /*--------Electronics-------------*/
+  #electronic{
+    flex-direction: column;
+    img{
+      width: 100%;
+    }
+    .text{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 2rem;
+    }
+  }
+  /*--------Products-------------*/
+  #products{
+    .specification_container{
+      .table_container{
+        .icons_container{
+          .icon{
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  #technical, #interface{
+    margin-top: 3rem;
+  }
+  #products{
+    margin-top: 3rem;
+    .specification_container{
+      margin-top: 2rem;
+      .table_container{
+        .icons_container{
+          .icon{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

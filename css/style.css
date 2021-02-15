@@ -1,0 +1,480 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.57;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/*---------Hero---------*/
+#hero {
+  background: #fff;
+  padding: 3rem 0;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+#hero .heading {
+  width: 50%;
+  margin-top: 3rem;
+  padding-left: 2rem;
+}
+
+#hero .image_container {
+  width: 43%;
+  position: absolute;
+  top: 7%;
+  right: 0;
+}
+
+#hero .content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 2rem;
+  width: 57%;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+
+#hero .content .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-top: 1rem;
+}
+
+#hero .content .actions .hero_link {
+  margin-bottom: 1.5rem;
+  padding: .5rem 0;
+}
+
+#hero .content .actions .hero_link .btn_outline {
+  margin-right: 1rem;
+  border: 1.5px solid #0b558f;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0b558f;
+  padding: .7rem 1.6rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#hero .content .actions .hero_link .btn_outline:hover {
+  background-color: #0b558f;
+  color: #fff;
+}
+
+#hero .content .actions .hero_link .btn {
+  background-color: #0b558f;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: .7rem 1.6rem;
+  border: 1.5px solid transparent;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#hero .content .actions .hero_link .btn:hover {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  color: #0b558f;
+}
+
+/*--------Technical-------------*/
+#technical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 11rem;
+}
+
+#technical img {
+  display: block;
+  width: 50%;
+}
+
+#technical .text {
+  width: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3rem;
+}
+
+#technical .text .mb-none {
+  margin-bottom: 0;
+}
+
+/*--------Interface-------------*/
+#interface {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+#interface .text {
+  width: 50%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.4rem 4rem;
+}
+
+#interface .text .mb-none {
+  margin-bottom: 0;
+}
+
+#interface img {
+  display: block;
+  width: 50%;
+}
+
+/*--------Electronics-------------*/
+#electronic {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+#electronic img {
+  display: block;
+  width: 50%;
+}
+
+#electronic .text {
+  width: 50%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3rem;
+}
+
+#electronic .text .mb-none {
+  margin-bottom: 0;
+}
+
+/*--------Products-------------*/
+#products {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+#products h2 {
+  text-align: center;
+}
+
+#products .specification_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+#products .specification_container .links {
+  width: 30%;
+  margin-right: 2rem;
+}
+
+#products .specification_container .links .links_item {
+  background: #0b558f;
+  padding: 1rem;
+}
+
+#products .specification_container .links .links_item h4 {
+  color: #fff;
+}
+
+#products .specification_container .links .links_item a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .9rem;
+  color: #fff;
+  font-weight: 300;
+  margin-top: .4rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#products .specification_container .links .links_item a:hover {
+  font-weight: 600;
+}
+
+#products .specification_container .table_container {
+  width: 45%;
+}
+
+#products .specification_container .table_container table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+#products .specification_container .table_container table tbody tr {
+  border: none;
+}
+
+#products .specification_container .table_container table tbody tr td {
+  padding: .4rem .6rem;
+}
+
+#products .specification_container .table_container table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+#products .specification_container .table_container .icons_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+#products .specification_container .table_container .icons_container .icon {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+#products .specification_container .table_container .icons_container .icon img {
+  width: 60px;
+  margin-right: 0.5rem;
+}
+
+#products .specification_container .table_container .icons_container .icon h5 {
+  margin: 0;
+  color: #0b558f;
+}
+
+#products .specification_container .img_container {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2rem;
+}
+
+@media (max-width: 1039.99px) {
+  #hero .content .actions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #technical {
+    margin-top: 8rem;
+  }
+  /*--------Products-------------*/
+  #products .specification_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #products .specification_container .links {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: 0;
+  }
+  #products .specification_container .table_container {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 100%;
+  }
+  #products .specification_container .table_container .icons_container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #products .specification_container .table_container .icons_container .icon {
+    width: 30%;
+  }
+  #products .specification_container .img_container {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /*---------Hero---------*/
+  #hero {
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+  }
+  #hero .heading {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+  }
+  #hero .image_container {
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #hero .content {
+    width: 100%;
+    text-align: center;
+  }
+  #hero .content .actions {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*--------Technical-------------*/
+  #technical {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 5rem;
+  }
+  #technical img {
+    display: block;
+    width: 100%;
+  }
+  #technical .text {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem;
+  }
+  /*--------Interface-------------*/
+  #interface {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #interface .text {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem;
+  }
+  #interface img {
+    display: block;
+    width: 100%;
+  }
+  /*--------Electronics-------------*/
+  #electronic {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #electronic img {
+    width: 100%;
+  }
+  #electronic .text {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem;
+  }
+  /*--------Products-------------*/
+  #products .specification_container .table_container .icons_container .icon {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #technical, #interface {
+    margin-top: 3rem;
+  }
+  #products {
+    margin-top: 3rem;
+  }
+  #products .specification_container {
+    margin-top: 2rem;
+  }
+  #products .specification_container .table_container .icons_container .icon {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
